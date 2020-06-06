@@ -82,7 +82,7 @@ li {color: white;}
             padding: inherit;}
 
     .navbar div{margin: inherit; 
-            background-color: black;}
+            background-color: white;}
 
     .navbar-brand{padding: 10px !important; }
 
@@ -101,4 +101,9 @@ li {color: white;}
 
     h2{margin: inherit;}
 
-    .test {margin: inherit;}
+    .test{margin: inherit;}
+
+    .personal_photo{padding-top: inherit;
+        padding-bottom: inherit; 
+        width:inherit;
+        height:inherit;}
