@@ -62,7 +62,7 @@ li {color: white;}
 .personal{padding: inherit;}
 
 .personal_photo{padding-top: 10px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;}
     
 .navigation .navbar-brand{
     color: whitesmoke; 
@@ -102,8 +102,3 @@ li {color: white;}
     h2{margin: inherit;}
 
     .test{margin: inherit;}
-
-    .personal_photo{padding-top: inherit;
-        padding-bottom: inherit; 
-        width:inherit;
-        height:inherit;}
