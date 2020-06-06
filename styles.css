@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    font-style: normal;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61emgHDmgwL._AC_SY606_.jpg");}
+
+.title1{color:  black ;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: medium;
+    background-color: white;
+    margin-left: 650px;
+    margin-right: 650px;}
+
+.title2{color:  black ;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: medium;
+        background-color: white;
+        margin-left: 650px;
+        margin-right: 650px;}
+
+.title3{color:  black ;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: medium;
+        background-color: white;
+        margin-left: 675px;
+        margin-right: 675px;}
+ 
+.title4{color:  black ;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: medium;
+        background-color: white;
+        margin-left: 750px;
+        margin-right: 750px;}
+        
+.title5{color:  black ;
+        border-style: solid;
+        border-radius: 20px;
+        border-width: medium;
+        background-color: white;
+        margin-left: 700px;
+        margin-right: 700px;}    
+
+h2{color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: medium;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    }
+
+li {color: white;}  
+
+.skills{ margin-left: 300px;
+    margin-right: 300px; }
+
+.education{padding: inherit;}
+
+.personal{padding: inherit;}
+
+.personal_photo{padding-top: 10px;
+    padding-bottom: 30px; }
+    
+.navigation .navbar-brand{
+    color: whitesmoke; 
+     margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.skills{margin-left: 400px;
+        margin-right: 400px;}
+
+@media(max-width: 1500px){
+    .navbar-expand-lg{background-color: white !important;}
+
+    .navbar{max-height: none; 
+            padding: inherit;}
+
+    .navbar div{margin: inherit; 
+            background-color: black;}
+
+    .navbar-brand{padding: 10px !important; }
+
+    button{margin-right: 30px;}
+        
+    button:focus {outline: 1px dotted;
+            outline: 5px auto -webkit-focusring-color;}
+        
+    .title1{margin: inherit;}
+    .title2{margin: inherit;}
+    .title3{margin: inherit;}
+    .title4{margin: inherit;}
+    .title5{margin: inherit;}
+
+    .skills{margin: inherit;}
+
+    h2{margin: inherit;}
+
+    .test {margin: inherit;}

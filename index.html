@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
+<!--Establishing the Head-->    
 <head>
   <meta charset="UTF-8">
-  <title>Tyler (TJ) Wilson</title>
+  
+<!-- Browser will render the width of the page at the width of its own screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Style Sheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles.css">
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<title>Tyler (TJ) Wilson</title>
+
 </head>
 
-<style>
-  body{
-    text-align: center;
-    font-style: normal;
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61emgHDmgwL._AC_SY606_.jpg");}
 
-  h1{color:  black ;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: medium;
-    background-color: white;
-    margin-left: 800px;
-    margin-right: 800px;}
-
-  h2{color: black;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: medium;
-    background-color: white;
-    margin-left: 300px;
-    margin-right: 300px;
-    }
-
-  li {color: white;}  
-
-  .skills{ margin-left: 300px;
-    margin-right: 300px; }
-
-  .education{padding: 30px;}
-
-  .personal{padding: 30px;}
-
-  .personal_photo{box-shadow: 15px 5px white; }
-</style>
-
-
-
+<!-- Website Body -->
 <body>
-    <h1><u>Personal Bio Page</u></h1>
+  <div class="navigation"> 
+  <!-- Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Wilson</a>
+    <!-- Consider adding in a border to the dropdown below -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="Web-Visualizations/Index_Pages/Comparisons.html">Projects</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Web-Visualizations/Index_Pages/Data.html"> Skills & Services</Datag></a>
+      </li>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contact Info</a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://calendly.com/tjwilson5634">Call</a>
+            <a class="dropdown-item" href="Web-Visualizations/Index_Pages/Humidity.html">Email</a>
+            <a class="dropdown-item" href="https://www.linkedin.com/in/tjwilson01/">LinkedIn</a>
+          </div>
+        </li>
+
+    </ul>
+    </div>
+  </nav> 
+
+
+    <h1 class='title1'><u>Personal Bio Page</u></h1>
     <img src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/77170319_10158974174790410_8154066673553375232_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=CVCArmrwx8MAX-AnTQO&_nc_ht=scontent.fapa1-1.fna&oh=808a51ae8d6367f60115ea9339a87476&oe=5EEC7BFD" class='personal_photo'>
 
 
-    <h1><u>Experience & Goals:</u></h1>
+    <h1 class='title2'><u>Experience & Goals:</u></h1>
     <h2>
       With 5 years worth of experience in the location data industry, I recently made a more active effort in my long-term goal to become a fully stacked Data Analyst by completing a 24 week intense bootcamp at the University of Denver in 2020. <br> <br>
       My goal is to begin my career as a Data Analyst for any company that has an attractive technical enviorment and can provide a great opportunity to grow.
@@ -57,8 +77,9 @@
 
 
     <br>
-    <h1><u>Personal Links:</u></h1>
-    <div class='test'> 
+    <br>
+    <h1 class='title3'><u>Personal Links:</u></h1>
+    <div> 
     <a href="https://www.canva.com/design/DAD853Jw0ec/TTtMEZJdbsu1NjpdXSeYyQ/view?utm_content=DAD853Jw0ec&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"> <img src ="https://www.balchspringslibrary.org/news-events/lib-cal/resume.png/@@images/image.png" style="width:200px;height:200px;" class='personal'>
     <a href="https://www.linkedin.com/in/tjwilson01/"> <img src ="https://pngimg.com/uploads/linkedIn/linkedIn_PNG32.png" style="width:200px;height:200px;" class='personal'>
     <a href="https://github.com/Twilson34?tab=projects"> <img src ="https://pngimg.com/uploads/github/github_PNG83.png" style="height:200px;" class='personal'>
@@ -66,15 +87,17 @@
   </div>
   
   <br>
-    <h1><u>Skills:</u></h1>
-    <div class='skills'>
-      <h2><u>Languages:</u> Python, SQL, HTML, Javascript and VBA</h2>
-      <h2><u>Software:</u> Tableau, Jupyter Notebook, and Apache Hadoop </h2>
+  <br>
+    <h1 class='title4'><u>Skills:</u></h1>
+    <div>
+      <h2 class="skills"><u>Languages:</u> Python, SQL, HTML, Javascript and VBA</h2>
+      <h2 class="skills"><u>Software:</u> Tableau, Jupyter Notebook, and Apache Hadoop </h2>
     </div>
   
     <br>
-    <h1><u>Education:</u></h1>
-    <a href="https://bootcamp.du.edu/data/"> <img src ="https://png2.cleanpng.com/sh/9450e9ccafb748c1e94487f4716cd8ca/L0KzQYm3VcExN6JxiZH0aYP2gLBuTgVvcadqiuVydImwf7e0hPVvfpZ3RdZubobogn73if9vbZZ3i592ZX6wg37wgBUucJDoRadqZkS7crOBWfY5a2c3RqMCMUW2Q4eCUcUzPWo8TasEMka4Q4a1kP5o/kisspng-university-of-denver-denver-pioneers-men-s-ice-hoc-5af48bb89f8c62.1715336915259759926535.png" style="height:200px;" class='education'>
+    <br>
+    <h1 class='title5'><u>Education:</u></h1>
+    <a href="https://bootcamp.du.edu/data/"> <img src ="Photos/DU.png" style="height:200px;" class='education'>
     <a href="https://www.uccs.edu/business/degrees-and-programs/academics/finance"> <img src ="https://www.logolynx.com/images/logolynx/46/46a748ef1945eccba4911bb1089ea893.png" style="width:300px;height:200px;" class='education'>
 
 
