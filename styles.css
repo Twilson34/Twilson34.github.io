@@ -75,7 +75,7 @@ li {color: white;}
 .skills{margin-left: 400px;
         margin-right: 400px;}
 
-@media(max-width: 200px){
+@media(max-width: 1500px){
     .navbar-expand-lg{background-color: white !important;}
 
     .navbar{max-height: none; 
